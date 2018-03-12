@@ -1,0 +1,36 @@
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(normalize.css);
+@font-face {
+  font-family: FontAwesome;
+  src: url(../fonts/FontAwesome/FontAwesome.otf); }
+@font-face {}
+.card-header {
+  height: 144px;
+  background-image: url(/img/header_fon.png);
+  background-size: cover; }
+  .card-header .logo a img {
+    padding-top: 7px; }
+  .card-header h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #B9AFC7; }
+  .card-header button {
+    color: #B9AFC7;
+    font-size: 20px;
+    width: 190px;
+    background-color: transparent; }
+    .card-header button:hover {
+      background-color: transparent; }
+  .card-header .dropdown-menu {
+    text-align: center;
+    background-image: url(/img/button_fon.png); }
+    .card-header .dropdown-menu a {
+      font-weight: bold;
+      font-size: 15px;
+      color: #B9AFC7; }
+      .card-header .dropdown-menu a:hover {
+        background-color: transparent;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

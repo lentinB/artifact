@@ -1,0 +1,51 @@
+@import "variables";
+@import "settings";
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "normalize.css";
+
+.card-header {
+  height: 144px;
+  background-image: url(/img/header_fon.png);
+  background-size: cover;
+  .logo {
+    a {
+      img {
+        padding-top: 7px;
+      }
+    }
+  }
+  h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #B9AFC7;
+  }
+  button {
+    color: #B9AFC7;
+    font-size: 20px;
+    width: 190px;
+    background-color: transparent;
+    &:hover{
+      background-color: transparent;
+    }
+  }
+  .dropdown-menu {
+    text-align: center;
+    background-image: url(/img/button_fon.png);
+    a {
+      font-weight: bold;
+      font-size: 15px;
+      color: #B9AFC7;
+      &:hover{
+        background-color: transparent;
+        color: #fff;
+      }
+    }
+  }
+}
+.content {
+
+}
+
+//Footer
+@import "mediaquery";
