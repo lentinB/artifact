@@ -4,6 +4,7 @@
 @import "font-awesome.min.css";
 @import "normalize.css";
 
+//header
 .card-header {
   height: 144px;
   background-image: url(/img/header_fon.png);
@@ -16,36 +17,75 @@
     }
   }
   h2 {
+    color: #918155;
     text-align: center;
     font-size: 4em;
-    color: #B9AFC7;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #9d8960 33%, #5b4b33 66%, #3f3b35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   button {
+    border: 1px solid #dd9629;
+    background: rgba(11, 10, 63, 0.77);
     color: #B9AFC7;
-    font-size: 20px;
-    width: 190px;
-    background-color: transparent;
+    font-size: 22px;
+    width: 187px;
+    span {
+      color: #B86506;
+
+    }
     &:hover{
-      background-color: transparent;
+      background: rgba(20, 19, 47, 0.77);
+      border: 1px solid #dd9629;
+      font-weight: bold;
+      color: #B86506;
+    }
+    &:focus {
+      background: rgba(11, 11, 24, 0.77);
+      color: #B86506;
+      box-shadow: 0 0 0 3px rgba(221,150,41,1);
     }
   }
+
   .dropdown-menu {
     text-align: center;
     background-image: url(/img/button_fon.png);
     a {
+      line-height: 36px;
+      color: #B86506;
       font-weight: bold;
       font-size: 15px;
-      color: #B9AFC7;
       &:hover{
-        background-color: transparent;
-        color: #fff;
+        color: #B86506;
       }
     }
   }
 }
-.content {
+Конец
 
+.content {
+  .content_banner {
+    .blog_news {
+
+    }
+    .streams {
+
+    }
+  }
 }
 
 //Footer
+.footer {
+  background-color: #6c757d;
+  .home {
+    a {
+      background: linear-gradient(0deg, #9d8960 33%, #5b4b33 66%, #3f3b35);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 26px;
+      color: #dd9629;
+    }
+  }
+}
 @import "mediaquery";
